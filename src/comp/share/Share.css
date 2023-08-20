@@ -1,0 +1,67 @@
+.share-container{
+  padding: 20px;
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+}
+.share-wrapper{
+  /* border: 1px solid red; */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #053545;
+  color: #86cdd9;
+  -webkit-box-shadow: 1px 1px 11px 2px rgba(0,0,0,0.6); 
+box-shadow: 1px 1px 11px 2px rgba(0,0,0,0.6);
+}
+
+.post{
+  display: flex;
+  align-items: center;
+  margin-left: 23px;
+}
+.shareinput{
+  color: #86cdd9;
+  border: none;
+  background-color: transparent;
+}
+ ::placeholder{
+  color: #86cdd9;
+  font-size: 13px;
+  font-weight: bold;
+}
+.shareimg{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+hr{
+  margin: 20px 0;
+  width: 90%;
+  margin-left: 25px;
+}
+
+.shareaction{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 23px;
+  width: 90%;
+}
+.sharepost{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.sharebutton{
+  padding: 5px;
+  background-color: #86cdd9;
+  color: #053545;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}

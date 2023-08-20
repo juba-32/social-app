@@ -1,0 +1,78 @@
+.rightbar{
+  flex: 3.5;
+  background: #075c78;
+  color: #86cdd9;
+  padding: 20px;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+.birthday{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gift-icon{
+  color: rgb(198, 32, 32);
+}
+
+.gift-text b{
+  font-size: 15px;
+}
+
+.gift-text{
+  font-size: 13px;
+}
+
+.adsbar{
+  padding: 20px;
+  width: 100%;
+}
+
+.adsbar img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.online-friends h4{
+  padding: 20px 0;
+}
+
+.online-list{
+  list-style: none;
+}
+.online-profile{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.onlineprofilecontainer{
+  position: relative;
+  margin-right: 10px;
+}
+.online-green-point{
+  position: absolute;
+  background: limegreen;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  top: -2;
+  right: 0;
+}
+
+.onlineimg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.onlineusername{
+  font-size: 20px;
+}
